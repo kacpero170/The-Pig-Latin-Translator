@@ -9,8 +9,6 @@ vowels = ['a','e','i','o','u']
 word = input('Enter your word: ')
 first = word[0]
 rest = word[1:]
-new_first = rest[0].upper()
-new_rest = rest[1:].lower()
 
 # Translator
 if (len(word) > 0) and (word.isalpha()) and (first.lower() in vowels):
